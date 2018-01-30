@@ -9,5 +9,8 @@
 <body>
     <h1>世界你好</h1>
     <p>{{ data.content }}</p>
+
+    <h3>显示静态资源</h3>
+    <img src="{{ url_for('static', filename='python.jpg') }}" alt="">
 </body>
 </html>
